@@ -1,7 +1,7 @@
 
 
 def priority(n):
-    return int(n&1==0) + int(n&1==0 and (n>>1)&1==0) + int((n==2)*3)
+    return (n&1==0) + (n&1==0 and (n>>1)&1==0) + ((n==2)*3)
 
 
 def solution(n):

@@ -2,7 +2,7 @@ import solution
 
 
 def main():
-    print(solution.solution('64'))
+    print(solution.solution('6'))
 
 
 if __name__ == '__main__':
